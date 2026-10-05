@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Administrar textos | Dra. Bruna Bononi</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="topbar">
+        <div>
+            <h1>Administrar textos</h1>
+            <p id="who">O site público lê estes campos. Publicar grava a alteração no ar.</p>
+        </div>
+        <div class="topbar-actions">
+            <button class="btn-quiet" id="connect" type="button">Conectar GitHub</button>
+            <a class="btn-quiet" href="../index.html" style="text-decoration:none;display:inline-flex;align-items:center;padding:10px 14px;border-radius:4px;border:1px solid #e4ddd2;color:#0c1426;">Ver site</a>
+        </div>
+    </header>
+    <div class="layout">
+        <nav class="side">
+            <button type="button" data-jump="identidade">Identidade</button>
+            <button type="button" data-jump="menu">Menu</button>
+            <button type="button" data-jump="inicio">Página inicial</button>
+            <button type="button" data-jump="diferenciais">Diferenciais</button>
+            <button type="button" data-jump="chamada">Chamada final</button>
+            <button type="button" data-jump="sobre">A Dra. Bruna</button>
+            <button type="button" data-jump="tratamentos">Tratamentos</button>
+            <button type="button" data-jump="contato">Contato</button>
+        </nav>
+        <main class="main" id="fields"></main>
+    </div>
+    <div class="savebar">
+        <p class="status" id="status">Carregando campos…</p>
+        <div class="savebar-actions">
+            <button class="btn-quiet" id="preview" type="button">Pré-visualizar</button>
+            <button class="btn" id="publish" type="button">Publicar no site</button>
+        </div>
+    </div>
+    <dialog id="token-dialog">
+        <h2>Conectar ao GitHub</h2>
+        <p>Para publicar, use um token pessoal da conta que administra o repositório <strong>nardoniF/brunabononi</strong>, com permissão de escrita no conteúdo. Ele fica só neste navegador e não entra no site público.</p>
+        <p><a href="https://github.com/settings/tokens/new?scopes=repo&description=Admin%20site%20Bruna%20Bononi" target="_blank" rel="noopener">Criar token no GitHub</a></p>
+        <input id="token-input" type="password" autocomplete="off" placeholder="ghp_...">
+        <div class="row">
+            <button class="btn" id="save-token" type="button">Conectar</button>
+            <button class="btn-quiet" id="close-token" type="button">Cancelar</button>
+        </div>
+        <p class="status" id="token-error"></p>
+    </dialog>
+    <script src="admin.js"></script>
+</body>
+</html>

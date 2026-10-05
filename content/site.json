@@ -1,0 +1,168 @@
+{
+  "identity": {
+    "name": "Dra. Bruna Bononi",
+    "tagline": "Odontologia & Estética Facial",
+    "phone": "(11) 97865-7709",
+    "email": "brupononia@gmail.com",
+    "address": "Avenida Vereador José Diniz, 3300 — Sala 409",
+    "whatsappText": "Olá, Dra. Bruna, gostaria de agendar uma consulta.",
+    "copyright": "© 2026 Dra. Bruna Bononi. Todos os direitos reservados.",
+    "footerPlaceTitle": "Consultório",
+    "footerPagesTitle": "Páginas"
+  },
+  "nav": {
+    "home": "Início",
+    "about": "A Dra. Bruna",
+    "services": "Tratamentos",
+    "contact": "Contato",
+    "cta": "Agendar consulta"
+  },
+  "home": {
+    "metaTitle": "Dra. Bruna Bononi | Odontologia e Estética Facial",
+    "metaDescription": "Tratamentos odontológicos modernos e harmonização facial com a Dra. Bruna Bononi. Implantes, lentes de contato dental, canal e botox. Av. Vereador José Diniz, 3300 — Sala 409.",
+    "eyebrow": "Dra. Bruna Bononi",
+    "title": "Cuide do seu sorriso e da sua autoestima com quem é referência em excelência.",
+    "subtitle": "Tratamentos odontológicos modernos e harmonização facial personalizados para realçar o seu melhor sorriso.",
+    "cta": "Agendar Consulta pelo WhatsApp",
+    "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1800&q=80",
+    "addressLabel": "Atendimento",
+    "phoneLabel": "Contato direto",
+    "aboutEyebrow": "Sobre a Dra. Bruna Bononi",
+    "aboutTitle": "Diga adeus aos incômodos e sorria com confiança.",
+    "aboutText": "A Dra. Bruna Bononi combina tecnologia, precisão e sensibilidade para oferecer um atendimento humanizado e focado em resultados naturais. Seja para recuperar a saúde bucal com implantes e tratamentos de canal, transformar a estética do seu sorriso com lentes de contato dental, ou renovar a jovialidade do rosto com aplicação de botox, cada procedimento é feito de forma personalizada para você.",
+    "aboutImage": "https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1400&q=80",
+    "aboutImageAlt": "Atendimento em consultório odontológico",
+    "aboutButton": "Conheça a Dra. Bruna",
+    "servicesEyebrow": "Nossos serviços",
+    "servicesTitle": "Especialidades",
+    "cardLink": "Saiba mais"
+  },
+  "reasons": {
+    "eyebrow": "Por que nos escolher",
+    "title": "Um atendimento pensado para você",
+    "items": [
+      {
+        "title": "Atendimento Humanizado",
+        "text": "Avaliação minuciosa para entender exatamente suas necessidades e desejos."
+      },
+      {
+        "title": "Conforto e Segurança",
+        "text": "Ambientes e técnicas preparados para garantir máxima tranquilidade durante o procedimento."
+      },
+      {
+        "title": "Localização Privilegiada",
+        "text": "Consultório moderno na Av. Vereador José Diniz, com fácil acesso."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para transformar o seu sorriso?",
+    "text": "Entre em contato agora mesmo e agende a sua avaliação com a Dra. Bruna Bononi.",
+    "button": "Falar no WhatsApp: (11) 97865-7709",
+    "image": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=1800&q=80"
+  },
+  "about": {
+    "metaTitle": "A Dra. Bruna | Dra. Bruna Bononi",
+    "metaDescription": "Conheça a Dra. Bruna Bononi. Odontologia e estética facial com conforto, bem-estar e naturalidade.",
+    "eyebrow": "Sobre",
+    "title": "Conheça a Dra. Bruna Bononi",
+    "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1400&q=80",
+    "imageAlt": "Detalhe de consultório odontológico",
+    "paragraphs": [
+      "Acredito que um sorriso saudável e bonito tem o poder de transformar vidas, restaurar a autoconfiança e elevar a autoestima de qualquer pessoa.",
+      "Com vasta experiência e contínua atualização nas melhores técnicas da odontologia e da estética facial, meu compromisso é oferecer tratamentos de alto padrão que prezem pelo conforto, bem-estar e naturalidade de cada paciente.",
+      "No consultório, você encontra um ambiente acolhedor e seguro, equipado para realizar procedimentos de alta complexidade — desde reabilitações com implantes e tratamentos endodônticos até transformações estéticas marcantes com lentes de contato e botox."
+    ],
+    "cta": "Agendar Consulta pelo WhatsApp"
+  },
+  "servicesPage": {
+    "metaTitle": "Tratamentos | Dra. Bruna Bononi",
+    "metaDescription": "Implantes dentários, lentes de contato dental, tratamento de canal e aplicação de botox com a Dra. Bruna Bononi.",
+    "eyebrow": "Tratamentos",
+    "title": "Odontologia e harmonização facial",
+    "subtitle": "Tratamentos odontológicos modernos e harmonização facial personalizados para realçar o seu melhor sorriso.",
+    "button": "Agendar Consulta pelo WhatsApp"
+  },
+  "treatments": [
+    {
+      "id": "implantes",
+      "title": "Implantes Dentários",
+      "summary": "Recupere a funcionalidade da mastigação e a segurança de sorrir sem receios com implantes modernos e de alta durabilidade.",
+      "text": "A perda de um ou mais dentes afeta diretamente a saúde, a mastigação e a autoestima. Os implantes dentários representam a solução mais avançada e definitiva para substituir dentes ausentes, atuando como raízes artificiais de titânio que devolvem a estabilidade e a estética natural do sorriso.",
+      "benefits": [
+        "Aparência e sensação idênticas aos dentes naturais.",
+        "Preservação da estrutura óssea facial.",
+        "Mastigação segura e firme."
+      ],
+      "image": "https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Consultório preparado para reabilitação oral",
+      "whatsappText": "Olá, Dra. Bruna, gostaria de agendar uma consulta sobre implantes."
+    },
+    {
+      "id": "lentes",
+      "title": "Lentes de Contato Dental",
+      "summary": "Corrija imperfeições, formato e a cor dos dentes para conquistar um sorriso harmônico, brilhante e natural.",
+      "text": "As lentes de contato dental são lâminas ultrafinas de porcelana feitas sob medida para cobrir a frente dos dentes. Elas são ideais para corrigir pequenas imperfeições, desgastes, espaçamentos (diastemas) e alterações de cor, entregando o sorriso perfeito de forma rápida e duradoura.",
+      "benefits": [
+        "Correção imediata de cor, forma e desalinhamentos leves.",
+        "Alta durabilidade e resistência a manchas.",
+        "Resultado estético elegante e natural."
+      ],
+      "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Sorriso após tratamento estético",
+      "whatsappText": "Olá, Dra. Bruna, gostaria de agendar uma consulta sobre lentes de contato dental."
+    },
+    {
+      "id": "canal",
+      "title": "Tratamento de Canal (Endodontia)",
+      "summary": "Elimine dores e incômodos com um procedimento ágil, seguro, confortável e focado na preservação da sua saúde bucal.",
+      "text": "O tratamento de canal é indicado para salvar dentes comprometidos por cáries profundas, trincas ou traumas, aliviando dores e prevenindo infecções graves. Com o uso de técnicas modernas e anestesias eficientes, o procedimento é realizado com total conforto e sem dor.",
+      "benefits": [
+        "Alívio imediato da dor e eliminação de infecções.",
+        "Preservação do dente natural.",
+        "Prevenção de complicações futuras na saúde bucal."
+      ],
+      "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Instrumental odontológico",
+      "whatsappText": "Olá, Dra. Bruna, gostaria de agendar uma consulta sobre tratamento de canal."
+    },
+    {
+      "id": "botox",
+      "title": "Aplicação de Botox (Toxina Botulínica)",
+      "summary": "Suavize linhas de expressão, previna rugas e traga um toque de rejuvenescimento ao seu rosto com naturalidade.",
+      "text": "A toxina botulínica é uma grande aliada tanto na estética quanto no bem-estar. Ela atua relaxando a musculatura facial para suavizar e prevenir linhas de expressão (como rugas na testa e pés de galinha), além de auxiliar no tratamento funcional de problemas como o bruxismo e dores na articulação temporomandibular (ATM).",
+      "benefits": [
+        "Atenuação de rugas e marcas de expressão com efeito natural.",
+        "Prevenção do envelhecimento precoce da pele.",
+        "Auxílio no alívio de tensões musculares provocadas pelo bruxismo."
+      ],
+      "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80",
+      "imageAlt": "Tratamento estético facial",
+      "whatsappText": "Olá, Dra. Bruna, gostaria de agendar uma consulta sobre aplicação de botox."
+    }
+  ],
+  "contact": {
+    "metaTitle": "Contato | Dra. Bruna Bononi",
+    "metaDescription": "Agende sua consulta com a Dra. Bruna Bononi. Av. Vereador José Diniz, 3300 — Sala 409. WhatsApp (11) 97865-7709.",
+    "eyebrow": "Localização e agendamento",
+    "title": "Entre em Contato",
+    "intro": "Estamos prontos para atender você com toda a atenção e cuidado que seu sorriso merece. Agende sua consulta ou tire suas dúvidas pelos nossos canais diretos:",
+    "cardTitle": "Consultório",
+    "whatsappButton": "Falar no WhatsApp",
+    "hoursTitle": "Horário de atendimento",
+    "hours": [
+      { "label": "Segunda a sexta", "value": "Hora marcada" },
+      { "label": "Sábados", "value": "Sob consulta" }
+    ],
+    "formTitle": "Envie uma mensagem",
+    "formIntro": "Retornamos para confirmar o melhor horário da sua avaliação.",
+    "formName": "Nome",
+    "formEmail": "E-mail",
+    "formPhone": "Telefone",
+    "formMessage": "Mensagem",
+    "formSubmit": "Enviar mensagem",
+    "formSuccess": "Mensagem enviada. Em breve entramos em contato.",
+    "formSubject": "Nova mensagem — Site Dra. Bruna Bononi",
+    "mapQuery": "Avenida Vereador José Diniz, 3300, São Paulo"
+  }
+}
