@@ -2,7 +2,7 @@ const REPO = 'nardoniF/brunabononi';
 const FILE = 'content/site.json';
 const TOKEN_KEY = 'bruna-admin-token';
 const AUTH_KEY = 'bruna-admin-auth';
-const PASSWORD_HASH = 'c7ffb86395973f837c381ee0f3543cd6a3e6e2aba00fca6b5bf99c502905b09f';
+const PASSWORD_HASH = '6d3f2ae249d667261536bce9bd2360681b348eb17a3deb15c23b1ae868682358';
 
 let state = null;
 let sha = null;
