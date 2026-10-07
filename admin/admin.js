@@ -1,6 +1,8 @@
 const REPO = 'nardoniF/brunabononi';
 const FILE = 'content/site.json';
 const TOKEN_KEY = 'bruna-admin-token';
+const AUTH_KEY = 'bruna-admin-auth';
+const PASSWORD_HASH = 'c7ffb86395973f837c381ee0f3543cd6a3e6e2aba00fca6b5bf99c502905b09f';
 
 let state = null;
 let sha = null;
@@ -339,12 +341,40 @@ document.getElementById('publish').addEventListener('click', async () => {
   }
 });
 
-const savedToken = sessionStorage.getItem(TOKEN_KEY);
-if (savedToken) {
-  connect(savedToken).catch(() => {
-    sessionStorage.removeItem(TOKEN_KEY);
-    loadContent();
-  });
-} else {
+async function sha256(text) {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(digest)].map((byte) => byte.toString(16).padStart(2, '0')).join('');
+}
+
+function openAdmin() {
+  document.getElementById('login').hidden = true;
+  document.getElementById('admin').hidden = false;
+  const savedToken = sessionStorage.getItem(TOKEN_KEY);
+  if (savedToken) {
+    connect(savedToken).catch(() => {
+      sessionStorage.removeItem(TOKEN_KEY);
+      loadContent();
+    });
+    return;
+  }
   loadContent().catch((error) => setStatus(error.message));
 }
+
+document.getElementById('login-form').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const password = document.getElementById('login-password').value;
+  const hash = await sha256(password);
+  if (hash !== PASSWORD_HASH) {
+    document.getElementById('login-error').textContent = 'Senha incorreta.';
+    return;
+  }
+  sessionStorage.setItem(AUTH_KEY, '1');
+  openAdmin();
+});
+
+document.getElementById('logout').addEventListener('click', () => {
+  sessionStorage.removeItem(AUTH_KEY);
+  location.reload();
+});
+
+if (sessionStorage.getItem(AUTH_KEY) === '1') openAdmin();

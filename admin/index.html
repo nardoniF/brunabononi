@@ -12,12 +12,24 @@
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+    <main class="gate" id="login">
+        <form id="login-form">
+            <h1>Administrar textos</h1>
+            <p>Digite a senha para entrar.</p>
+            <input id="login-password" type="password" autocomplete="current-password" required placeholder="Senha">
+            <button class="btn" type="submit">Entrar</button>
+            <p class="status" id="login-error"></p>
+            <p><a href="../index.html">Voltar ao site</a></p>
+        </form>
+    </main>
+    <div id="admin" hidden>
     <header class="topbar">
         <div>
             <h1>Administrar textos</h1>
             <p id="who">O site público lê estes campos. Publicar grava a alteração no ar.</p>
         </div>
         <div class="topbar-actions">
+            <button class="btn-quiet" id="logout" type="button">Sair</button>
             <button class="btn-quiet" id="connect" type="button">Conectar GitHub</button>
             <a class="btn-quiet" href="../index.html" style="text-decoration:none;display:inline-flex;align-items:center;padding:10px 14px;border-radius:4px;border:1px solid #e4ddd2;color:#0c1426;">Ver site</a>
         </div>
@@ -53,6 +65,7 @@
         </div>
         <p class="status" id="token-error"></p>
     </dialog>
+    </div>
     <script src="admin.js"></script>
 </body>
 </html>
