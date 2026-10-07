@@ -99,6 +99,7 @@ button, input, textarea { font: inherit; }
   border-top: 1px solid var(--line);
 }
 .status { margin: 0; font-size: 14px; }
+#admin:not(.is-open) { display: none !important; }
 .gate {
   min-height: 100vh;
   display: grid;
