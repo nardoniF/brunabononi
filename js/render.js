@@ -3,17 +3,18 @@
   const app = document.getElementById('app');
   if (!page || !app) return;
 
-  const params = new URLSearchParams(location.search);
-  let data;
-  if (params.get('preview') === '1') {
-    try {
-      data = JSON.parse(localStorage.getItem('bruna-preview') || '');
-    } catch (error) {
-      data = null;
-    }
+  const CONTENT_STORAGE_KEY = 'bruna_site_content';
+  let data = null;
+  try {
+    const stored = localStorage.getItem(CONTENT_STORAGE_KEY);
+    if (stored) data = JSON.parse(stored);
+  } catch (error) {
+    console.warn('Conteúdo local inválido, usando arquivo.', error);
+    data = null;
   }
   if (!data) {
-    const response = await fetch('content/site.json', { cache: 'no-cache' });
+    const response = await fetch('content/site.json', { cache: 'no-store' });
+    if (!response.ok) throw new Error('Não foi possível carregar o conteúdo.');
     data = await response.json();
   }
 
